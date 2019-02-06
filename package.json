@@ -1,5 +1,5 @@
 {
-  "name": "ytsr",
+  "name": "cordova-ytsr",
   "description": "Do anonymous YouTube search requests.",
   "keywords": [
     "youtube",
@@ -8,9 +8,9 @@
   "version": "0.1.8",
   "repository": {
     "type": "git",
-    "url": "git://github.com/TimeForANinja/node-ytsr.git"
+    "url": "git://github.com/refracturemedia/cordova-ytsr.git"
   },
-  "author": "Tobias Kutscha (https://github.com/TimeForANinja)",
+  "author": "Refracture Media (https://github.com/refracturemedia)",
   "main": "./lib/main.js",
   "files": [
     "lib"
@@ -35,7 +35,7 @@
     "node": ">=6"
   },
   "bugs": {
-    "url": "https://github.com/TimeForANinja/node-ytsr/issues"
+    "url": "https://github.com/refracturemedia/cordova-ytsr/issues"
   },
   "license": "MIT"
 }
