@@ -1,10 +1,19 @@
 {
+  "contributors": [{
+      "name": "Julian Sanchez",
+      "url": "https://github.com/juliancruzsanchez"
+    },
+    {
+      "name": "MulverineX",
+      "url": "https://github.com/mulverinex"
+    }
+  ],
   "author": {
-    "name": "Julian Sanchez",
-    "url": "https://github.com/juliancruzsanchez"
+    "name": "RefractureMedia",
+    "url": "https://github.com/RefractureMedia/"
   },
   "bugs": {
-    "url": "https://github.com/RefractureMedia/node-ytsr/issues"
+    "url": "https://github.com/RefractureMedia/ytsr-cordova/issues"
   },
   "dependencies": {
     "cordova-plugin-advanced-http": "^2.0.4",
@@ -24,23 +33,24 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://github.com/RefractureMedia/node-ytsr#readme",
+  "homepage": "https://github.com/RefractureMedia/ytsr-cordova#readme",
   "keywords": [
     "youtube",
-    "search"
+    "search",
+    "cordova",
+    "refracture",
+    "yt"
   ],
   "license": "MIT",
   "main": "./lib/main.js",
   "name": "ytsr-cordova",
   "repository": {
     "type": "git",
-    "url": "git://github.com/RefractureMedia/node-ytsr.git"
+    "url": "git://github.com/RefractureMedia/ytsr-cordova.git"
   },
   "scripts": {
-    "istanbul": "istanbul cover node_modules/mocha/bin/_mocha -- -t 16000 test/*-test.js",
     "lint": "eslint ./",
-    "lint:fix": "eslint --fix ./",
-    "test": "npm run lint && npm run istanbul"
+    "lint:fix": "eslint --fix ./"
   },
-  "version": "0.1.8"
+  "version": "0.1.0"
 }
